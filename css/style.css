@@ -1,0 +1,41 @@
+.header{
+	font-size: 20px;
+	line-height: 1.5; /*висота строки в заголовку*/
+	margin-bottom: 60px; /*щоб відео трошки відсунути*/
+}
+.header span{
+	display: block;
+}
+.section{
+	padding: 30px 0;
+}
+.form{
+	border:5px solid #27279D;
+	padding: 33px 20px; /*Щоб все не було зжатим, потрібно додати внутрішні відступи верх низ 35. по краям 20*/
+	
+}
+.form input{
+	margin-bottom: 12px; /*відступи по низам*/
+}
+.form-header,.section-header{
+	margin-bottom: 38px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.form-btn{
+	background-color: #27279D;
+	margin:12px auto; /*верх,низ 10, по краям авто*/
+
+}
+.features{
+	margin-top: 60px auto;
+}
+.features p{
+	margin-top: 20px;
+}
+.video{
+	margin-bottom: 30px;
+}
+.features-box{
+	height: 160px; /* ми задали висоту бля фічез бокса, якщо картинки різних розмірів, щоб вони не зїжджали коли міняється масштаб на різних екранах*/
+}
