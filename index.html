@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Перший макет на Bootstrap 3.7</title>
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet"  href="css/bootstrap.css">
+   <link rel="stylesheet"  href="css/style.css">
+</head>
+<body>
+	
+	<div class="section">
+		<div class="container">
+			<!--перший row строка під заголовок-->
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+				<h1 class="header text-center">
+						<!-- Для того, щоб елемент заголовок який складається з 6-ти колонок розмістився рівно по центру викр. ф-цію offset-3-->
+						<span>Отримайте відео-інструкцію</span>
+					<strong class="text-uppercase">Як заробити свій перший мільйон</strong>
+					<!--Для того щоб зробити текст з великих букв-->
+				</h1>
+			</div>
+				
+		</div>
+
+			<!--другий row, строка під відео і форму-->
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-1 col-md-8 col-md-offset-2">
+					<!--відео займає 6 колонок  і 1 колонка відступ з ліва по макету-->
+					<div class="video">
+						<iframe width="100%" height="315" src="https://www.youtube.com/embed/ayVLjyWqMCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<!--ширину відео треба ставити 100%, для того щоб воно було адаптивне відносно різних розмірів екрана-->
+					</div>
+					
+				</div>
+				<div class="col-lg-4 col-lg-offset-0 col-md-8 col-md-offset-2">
+					<div class="form">
+						<p class="form-header text-center">Введіть свій e-mail</p>
+						<form action="#">
+							<input type="text" class="form-control input-lg" placeholder="Ваше ім'я">
+							<input type="text" class="form-control input-lg" placeholder="Ваш e-mail">
+							<!--input-lg робить поля великими-->
+							<button class="btn btn-primary btn-lg btn-block form-btn">Отримати інструкцію</button>
+							<!--копіюю стиль з бутстрап документації, синя кнопка. Щоб вона встала на всю ширину, як поля вводу, її потрібно зробити блочною btn-block.  btn-lg говорить, що вона велика  large button/ form-btn це не клас бутстрап, а назва яку ми самі придумали, щоб задать їй стилі -->
+						</form>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="section">
+	<div class="container">
+	<!--row під заголовок секції-->
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<!--якщо в рядку лише один елемент і я хочу щоб він займав всі 12колонок-->
+		<h2 class="section-header text-uppercase text-center">Чому це треба зробити прямо сьогодні?</h2> 
+			
+		</div>
+		
+	</div>
+	<!--блок з перевагами features-->
+	<div class="features text-center"> <!-- щоб вирівняти картинки по центру, це правило наслідується-->
+		<div class="row">
+			<div class="col-lg-3 col-md-6">
+				<div class="features-box">
+					<img src="img/1.png" alt="1 перевага">
+					<p>Перша перевага</p>
+					
+				</div>
+				
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="features-box">
+					<img src="img/2.png" alt="2 перевага">
+					<p>Друга перевага</p>
+					
+				</div>
+				
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="features-box">
+					<img src="img/3.png" alt="3 перевага">
+					<p>Третя перевага</p>
+					
+				</div>
+				
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="features-box">
+					<img src="img/4.png" alt="4 перевага">
+					<p>Четверта перевага</p>
+
+					</div>
+
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<!-- кнопка отримати інструкцію-->
+		<button class="btn btn-primary btn-lg  form-btn center-block">Отримати інструкцію</button>
+	</div>
+</div>
+</body>
+
+</html> 
